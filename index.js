@@ -4,7 +4,7 @@ const fs = require('fs');
 const { exit } = require('process');
 const bot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILD_MESSAGES, 
     Intents.FLAGS.GUILD_VOICE_STATES, Intents.FLAGS.GUILD_PRESENCES] });
-const token = 'ODkyMTA5MDE5NTkyOTI5MzMx.YVIHRA._jtVNz51nOmYpHj0lGArAyv2uUo';
+const token = 'TOKEN';
 
 let idx = 0;
 const backId = 'back'
